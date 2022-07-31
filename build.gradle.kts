@@ -10,6 +10,7 @@ plugins {
 
 group = "org.glavo"
 version = "1.0"// + "-SNAPSHOT"
+description = "javaagent for loading llvmpipe"
 
 repositories {
     mavenCentral()
@@ -83,7 +84,7 @@ configure<PublishingExtension> {
             pom {
                 name.set(project.name)
                 description.set(project.description)
-                url.set("https://github.com/Glavo/kala-common")
+                url.set("https://github.com/Glavo/llvmpipe-loader")
 
                 licenses {
                     license {
@@ -101,7 +102,7 @@ configure<PublishingExtension> {
                 }
 
                 scm {
-                    url.set("https://github.com/Glavo/kala-common")
+                    url.set("https://github.com/Glavo/llvmpipe-loader")
                 }
             }
         }
